@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('germanFoods.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 4em;
+    font-family: "Oooh Baby", cursive;
+    font-weight: 900;
+    font-style: normal;
+    border: 10px solid aliceblue;
+    opacity: 0.7;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #5fb471;
+}
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe {
+    width: 45%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe img {
+    max-width: 100%;
+    border-radius: 40px;
+}
+
+.recipe h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#query {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+#query {
+    margin-bottom: 20px;
+}
+
+.reset {
+    background-color: rgb(60, 149, 119);
+}
+
+.reset:hover {
+    background-color: rgb(132, 188, 169);;
+}
+
+.recipe a {
+    font-size: 20px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.recipe a:hover {
+    color: rgb(138, 138, 201);
+}
+
+.recipe a:visited {
+    color: red;
+}
